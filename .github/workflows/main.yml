@@ -4,7 +4,7 @@ jobs:
   hello_world_job:
     runs-on: ubuntu-latest
     name: A job to say hello
-    container: fanyinghao/ossutil
+    container: fanyinghao/ossutil:1.6.6
     steps:
       # To use this repository's private action,
       # you must check out the repository
