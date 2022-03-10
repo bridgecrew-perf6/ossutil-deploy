@@ -1,7 +1,7 @@
 #!/bin/sh -l
 
 touch ~/.ossutilconfig
-cat "[Credentials]
+echo "[Credentials]
         endpoint = $1
         accessKeyID = $4
         accessKeySecret = $5
