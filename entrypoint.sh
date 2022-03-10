@@ -1,5 +1,6 @@
 #!/bin/sh -l
 
+touch ~/.ossutilconfig
 cat "[Credentials]
         endpoint = $1
         accessKeyID = $4
